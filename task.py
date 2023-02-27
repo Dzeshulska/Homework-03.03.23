@@ -6,7 +6,10 @@ print(registar_data)
 
 user_login = input(("Enter your login: "))
 user_password = input(("Enter your password: "))
-print((f"{user_login} {user_password}"))
+conc = user_login + " " + user_password
+print(conc)
+
+registar_data = "conc"
 
 user_login = input(("Enter your login: "))
 if len(user_login) < 5:
